@@ -1,0 +1,117 @@
+/* page reset starts here */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* page reset ends here */
+
+/* reusuables starts here */
+.btn{
+    padding: 15px 20px;
+}
+.btn-red{ 
+    background: var(--main-color);
+    color: var(--white-color);
+}
+.btn-red:hover{
+   color: var(--main-color); 
+   background: transparent;
+   border: 2px solid var(--main-color);
+     
+}
+.btn-white{
+    background: transparent;
+    border: 2px solid var(--main-color);
+}
+
+.btn-white:hover{
+    color: var(--main-color); 
+}
+
+
+
+
+/* reusuables endss here */
+
+
+/* <!-- header section starts here --> */
+header{
+    border: 3px solid tomato;
+    /* height: 50px; */
+
+}
+.nav-desktop{
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    justify-content: flex-end;
+}
+.desktop-logo{
+    position: absolute;
+    left: 60px;
+    width: 100px;
+    height: 100px;
+    background: var( --main-color) ;
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.desktop-link-holder{ 
+    border: 3px solid tomato;
+    display: flex;
+    align-items: center;
+}
+.desktop-link-holder ul{
+    border: 3px solid purple;
+    list-style: none;
+    display: flex;
+}
+.desktop-link-holder ul a{
+    text-decoration: none;
+    color:  var(--main-color) ;
+    padding: 15px 20px;
+    display: block;
+    border: 3px solid transparent;
+}
+.desktop-link-holder ul a:hover{
+border: solid var(--main-color );
+
+}
+
+.header-banner-section{
+    padding-top: 130px;
+    height: 450px;
+    border: 3px solid black;
+    background: url("img/banner.jpg");
+    background-size: cover;
+}
+
+.banner-content{
+    border: 3px solid red;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+.header-text-container{
+    border: 3px solid purple;
+    width: 50%;
+}
+
+.header-icons{
+    margin-left: 10px;
+}
+
+
+
+/* <!-- header section ends here -->
+ */
