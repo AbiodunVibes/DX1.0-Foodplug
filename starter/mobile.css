@@ -35,4 +35,44 @@
 /* Aboutus section ends here */
 
 
+/* explorefoods section starts here */
+.explorefoods-cards{
+    margin: 20px 0;
+}
+
+/* explorefoods section ends here */
+
+/* faq section starts here */
+.faq-items{
+    min-width: 100%;
+
+}
+/* faq section ends here */
+/* cta section starts here */
+.cta-showcase{
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+}
+.cta-notice{
+    padding: 30px 20px;
+}
+
+/* cta section ends here */
+
+/* footer section starts here */
+footer{
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    
+}
+.footer-icon-holder{
+    margin:15px 0 ;
+}
+
+
+/* footer section ends here */
+
+
 }
